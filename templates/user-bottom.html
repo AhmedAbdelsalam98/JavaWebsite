@@ -1,0 +1,81 @@
+
+      <!-- new request Modal-->
+      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New Report</h5>
+    
+              </div>
+              <div class="modal-body">
+    
+                  <form method="post">
+    
+                    <input type="text" name="IssueName" placeholder="Issue Name" id="issueName"><br><br> 
+                    <em>Have you tried restarting your computer</em><br>
+                    <select name="Restart" id="issueRestart">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                     </select>                    
+                     <br><br>
+                     <em>Please Select a category for this Issue</em><br>
+                    <select name="category" id="issueCat">
+                      <option value="Network">Network</option>
+                      <option value="Software">Software</option>
+                      <option value="Hardware">Hardware</option>
+                      <option value="Email">Email</option>
+                      <option value="Account">Account</option>
+                   </select>                    
+                   <br><br>
+                    <input type="text" name="Location" placeholder="Location of Issue" id="issueLoc"><br><br>
+                   
+                    <textarea type="text" name="IssueDesc" placeholder="Issue Description" id="issueDesc"></textarea>
+
+                  
+                  <br><br>
+                    <input type="submit" class="btn btn-info" value="Submit">
+                  </form> 
+    
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-warning" type="button" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+          <!-- Footer -->
+          <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>Service IT | SENG2050</span>
+              </div>
+            </div>
+          </footer>
+          <!-- End of Footer -->
+    
+        </div>
+        <!-- End of Content Wrapper -->
+    
+      </div>
+      <!-- End of Page Wrapper -->
+    
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+    
+    
+      <!-- Bootstrap core JavaScript-->
+      <script src="templates/vendor/jquery/jquery.min.js"></script>
+      <script src="templates/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+      <!-- Core plugin JavaScript-->
+      <script src="templates/vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+      <!-- Custom scripts for all pages-->
+      <script src="templates/js/sb-admin-2.min.js"></script>
+    
+    
+    </body>
+    
